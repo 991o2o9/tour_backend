@@ -13,10 +13,4 @@ django-celery-beat
 django-celery-results
 django-filter
 whitenoise
-
-
-
-
-
-
-
+python-dotenv
