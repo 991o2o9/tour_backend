@@ -59,7 +59,7 @@ class Country(models.Model):
 
 class Region(models.Model):
     region = models.CharField(max_length=30, verbose_name='область')
-    description = models.TextField(default='',verbose_name='описание')
+    description = models.TextField(default='', blank=True, null=True, verbose_name='описание')
     country =  models.ForeignKey(Country,on_delete=models.CASCADE)
 
     def __str__(self):
