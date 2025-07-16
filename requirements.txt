@@ -9,6 +9,8 @@ redis
 celery
 gunicorn
 dj-database-url
+django-celery-beat
+django-celery-results
 
 
 
