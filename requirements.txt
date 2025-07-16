@@ -11,7 +11,7 @@ gunicorn
 dj-database-url
 django-celery-beat
 django-celery-results
-
+django-filter
 
 
 
