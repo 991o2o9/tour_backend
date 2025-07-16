@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     'django_filters',
     'corsheaders',
     'user',
-    'tour'
+    'tour',
+    'rest_framework_simplejwt.token_blacklist',
 ]
 
 MIDDLEWARE = [
